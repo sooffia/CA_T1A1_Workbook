@@ -16,7 +16,7 @@ The Internet functions as a worldwide network of computers, with each computer r
 
 ![figure screenshot](./assets/figure-1.png) 
 
-Figure 1: How two computers conect
+Figure 1: How two computers connect (Shuler, 2002). 
 
 An Internet Service Provider (ISP) usually assigns you a temporary IP address for the duration of your session when you connect to the internet. Your computer might acquire a temporary IP address from a DHCP (Dynamic Host Configuration Protocol) server or have a permanent one on a local area network (LAN). While linked to the internet, your computer always retains a distinct IP address. Comprehending the importance of IP addresses requires an examination of the two main varieties, IPv4 and IPv6, both of which are significant for enabling worldwide communication and meeting the increasing demand for unique identifiers in the digital domain (Shuler, 2002). The transition from IPv4 to IPv6 has significantly impacted how the internet has evolved. Due to limitations, IPv4, which was first introduced in 1983 and used a 32-bit address structure that could support 4.3 billion distinct addresses, was replaced in 1999 with IPv6. With the introduction of the 128-bit address format in IPv6, the number of addresses available to accommodate the increasing number of devices connected to the internet has dramatically increased. IPv6 also provides more room for addresses, adds better security with organized coding, makes routing simpler by cutting out extra steps, improves how addresses are set up and is ready for the internet to keep growing and improving. These are important for making the internet work smoothly (Hosting,n.d.). 
 
@@ -24,7 +24,7 @@ An Internet Service Provider (ISP) usually assigns you a temporary IP address fo
 How do packets travel through the internet, and do all Internet-connected computers know where all the other computers are? The response to such questions is "no." Rather, the information required to direct packets to their destinations is contained in routing tables kept up to date by every router connected to the internet. In short, routers are traffic controllers for information on the internet. They act as a bridge across several networks, assisting by appropriately directing data packets. Although every router knows its networks and addresses, it may not know the broader picture beyond them. A central point connects more extensive NSP backbones at the top of Figure 2, and the black boxes in the diagram stand in for routers linking the significant networks. Smaller networks are located beneath these, while local networks with connected computers are at the bottom. This configuration facilitates effective data flow management across the internet (Shuler, 2002). 
 
 ![figure screenshot](./assets/figure-two.png) <br>
-Figure 2: Networks for routers 
+Figure 2: Networks for routers (Shuler, 2002). 
 
 A router first examines the IP address of the sender computer's IP protocol layer appended to the packet. A router first examines the IP address of the sender computer's IP protocol layer appended to the packet. The packet is then directed to the network that matches the IP address if the router discovers it by consulting its routing database. By default, the router forwards the packet to the next router on the backbone hierarchy if the network cannot be located. This process is repeated until a router with the required data is reached. Large routing tables on routers linked to major backbones allow them to direct a packet to the appropriate backbone. At this point, it begins its journey through lesser networks until it arrives at its destination (Shuler, 2002). 
 
@@ -63,7 +63,7 @@ The introduction of JavaScript, which was created by Brendan Eich in September 1
 JavaScript offers numerous advantages, such as being widely used and having a wealth of resources, which facilitates finding information and speedy learning. Due to its client-side execution, web pages load more quickly for users, and because of its versatility, it can successfully handle a variety of web page-related difficulties (Robinson,2022). JavaScript's capability to transfer work from the server to the client is another important benefit. This covers operations that can be completed by the user's browser, such as form validation, data processing, and dynamic content rendering. Particularly in the case of single-page applications (SPAs), where a large portion of the logic and rendering process occurs on the client side, JavaScript helps to enhance the scalability and response times of web apps by lowering the server load (Thakur, 2024). 
 
 ![figure screenshot](./assets/javascript.png) <br>
-Figure 4: Adavntages of Javascript 
+Figure 4: Adavntages of Javascript (Thakur,2024)
 
 However, JavaScript has its limitations, including the issue of visibility, where the code is publicly accessible, thereby creating a potential security vulnerability (Robinson,2022).Debugging with JavaScript can be challenging due to its dynamic and loosely typed nature, particularly when contrasted to statically typed languages. Due to its dynamic nature, errors may only become apparent during runtime, which makes it more difficult to predict them in advance of development (Thakur, 2024). Complex class relationships are restricted by its limited support for inheritance, particularly single inheritance, and the possibility of a single error creating a point of failure can impair web page functioning and reduce reliability (Robinson, 2022). 
 
@@ -234,9 +234,11 @@ Rahmaniar, W. (2023). Chatgpt for software development: Opportunities and challe
 Ahmed, F., Capretz, L. F., Bouktif, S., & Campbell, P. (2015). Soft skills and software development: A reflection from the software industry. https://arxiv.org/abs/1507.06873 
 
 Thakur, S. (2024, January 23). 8 Advantages and Disadvantages of Javscript That You Need To Know!. Unstop. https://unstop.com/blog/advantages-and-disadvantages-of-javascript 
+
 Gavrilova, Y. (2023, October 31). Pros and Cons of Python Programming Language. serokell.io https://serokell.io/blog/python-pros-and-cons 
 
 Davis, R. (2022, November 9). Benefits of Python over Other Programming Languages. Invensis. https://www.invensis.net/blog/benefits-of-python-over-other-programming-languages 
+
 Almabetter. (n.d.). Python Syntax and First program in Python https://www.almabetter.com/bytes/tutorials/python/python-syntax
 
 AltexSoft.( 2021, September 28). The Good and the Bad of Python Programming Language. https://www.altexsoft.com/blog/python-pros-and-cons/
