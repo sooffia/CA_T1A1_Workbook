@@ -15,9 +15,9 @@ Packet's primary features for the growth of the internet are their capacity to i
 
 The Internet functions as a worldwide network of computers, with each computer requiring a unique address for connectivity. The format of these addresses, also called IP (Internet Protocol) addresses, is nnn.nnn.nnn.nnn, with each nnn ranging from 0 to 255. This guarantees unique identification and efficient communication between devices that are connected. The figure shows two computers linked to the Internet: one has IP address 1.2.3.4, and the other has IP address 5.6.7.8. The Internet is an abstract object that makes these connections possible (3).
 
-![figure screenshot](assets/figure_1.png)
+![figure screenshot](./assets/figure_1.jpg)
 
-<img src="assets/figure_1.png" alt="How Two Computers Connect">
+<img src="./assets/figure_1.jpg" alt="How Two Computers Connect">
 Figure 1: How two computers conect
 
 ### Routers and Routing:
