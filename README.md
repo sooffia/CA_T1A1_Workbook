@@ -23,8 +23,7 @@ An Internet Service Provider (ISP) usually assigns you a temporary IP address fo
 ### Routers and Routing:
 How do packets travel through the internet, and do all Internet-connected computers know where all the other computers are? The response to such questions is "no." Rather, the information required to direct packets to their destinations is contained in routing tables kept up to date by every router connected to the internet. In short, routers are traffic controllers for information on the internet. They act as a bridge across several networks, assisting by appropriately directing data packets. Although every router knows its networks and addresses, it may not know the broader picture beyond them. A central point connects more extensive NSP backbones at the top of Figure 2, and the black boxes in the diagram stand in for routers linking the significant networks. Smaller networks are located beneath these, while local networks with connected computers are at the bottom. This configuration facilitates effective data flow management across the internet (3).
 
-![figure screenshot](./assets/figure-two.png) 
-
+![figure screenshot](./assets/figure-two.png) <br>
 Figure 2: Networks for routers 
 
 A router first examines the IP address of the sender computer's IP protocol layer appended to the packet. A router first examines the IP address of the sender computer's IP protocol layer appended to the packet. The packet is then directed to the network that matches the IP address if the router discovers it by consulting its routing database. By default, the router forwards the packet to the next router on the backbone hierarchy if the network cannot be located. This process is repeated until a router with the required data is reached. Large routing tables on routers linked to major backbones allow them to direct a packet to the appropriate backbone. At this point, it begins its journey through lesser networks until it arrives at its destination (3).
@@ -43,7 +42,7 @@ The internet has completely changed client-server communication due to TCP (Tran
 ### HTTP and HTTPS: 
 HTTP, or Hypertext Transfer Protocol, is pivotal in facilitating client-server interactions on the Internet. It is a standardized communication protocol that enables web browsers and servers to exchange data seamlessly. However, its connectionless nature, where each request initiates a new connection, can sometimes delay data retrieval, especially during concurrent requests (3). In contrast, HTTPS, which stands for Hypertext Transfer Protocol Secure, has significantly enhanced the security and integrity of client-server communication. By incorporating robust encryption mechanisms, HTTPS ensures that data transmitted between clients and servers remains confidential and protected against unauthorized access. This encryption is underpinned by a public critical infrastructure, ensuring that only authorized parties can decrypt and access the exchanged data. This visual representation of HTTP is denoted in website URLs with "https://," which instills trust in users regarding the secure nature of their connection, mainly when dealing with sensitive information online (12). 
 
-![figure screenshot](./assets/HTTPS.png) 
+![figure screenshot](./assets/HTTPS.png) <br>
 Figure 3: Connection between browser and website server 
 
 ### Web browsers: (requests, rendering and developer tools)
@@ -63,7 +62,7 @@ The introduction of JavaScript, which was created by Brendan Eich in September 1
 
 JavaScript offers numerous advantages, such as being widely used and having a wealth of resources, which facilitates finding information and speedy learning. Due to its client-side execution, web pages load more quickly for users, and because of its versatility, it can successfully handle a variety of web page-related difficulties (11). JavaScript's capability to transfer work from the server to the client is another important benefit. This covers operations that can be completed by the user's browser, such as form validation, data processing, and dynamic content rendering. Particularly in the case of single-page applications (SPAs), where a large portion of the logic and rendering process occurs on the client side, JavaScript helps to enhance the scalability and response times of web apps by lowering the server load (18).
 
-![figure screenshot](./assets/javascript.png) 
+![figure screenshot](./assets/javascript.png) <br>
 Figure 4: Adavntages of Javascript 
 
 However, JavaScript has its limitations, including the issue of visibility, where the code is publicly accessible, thereby creating a potential security vulnerability (11). Debugging with JavaScript can be challenging due to its dynamic and loosely typed nature, particularly when contrasted to statically typed languages. Due to its dynamic nature, errors may only become apparent during runtime, which makes it more difficult to predict them in advance of development (18). Complex class relationships are restricted by its limited support for inheritance, particularly single inheritance, and the possibility of a single error creating a point of failure can impair web page functioning and reduce reliability (11).
@@ -73,7 +72,7 @@ Python was first created in 1989 when its founder, Guido van Rossum, discovered 
 
 One of the main advantages of this feature is the capability for developers to add Python functionality to existing software. For instance, Boost and other tools can be used to incorporate Python into C++ applications. Due to its flexibility, developers may work within the framework of their preferred programming language while taking advantage of Python's beneficial characteristics, including its large library and ease of use (19).
 
-![figure screenshot](./assets/python.png) 
+![figure screenshot](./assets/python.png) <br>
 Figure 5: Python syntax 
 
 One of its main advantages is Python's simple syntax, which renders it effortless for developers to produce code rapidly and experiment with different ideas. The vast array of pre-built modules in Python's library adds to the language's attraction. Developers can effortlessly include pre-written code into their applications, reducing effort and development time (19). Lower-level languages like C++ or Java may provide more precise control and optimisation choices in sophisticated or performance-critical applications, whereas Python's simplicity may occasionally be a hindrance (19). Even when multiprocessing is not employed, Python is frequently criticised for its excessive resource use. Python objects have a substantial overhead, occasionally requiring up to ten times as much memory as needed to store the relevant data. This inefficiency can result from memory waste and difficulties handling out-of-date items that code may still reference (21).
@@ -98,8 +97,74 @@ I will adopt a systematic approach to problem-solving, ensuring that I understan
 
 Success in today's dynamic, constantly changing information technology sector depends on networking, professional development, and ongoing learning. As a future IT professional, I have created a plan to take advantage of several tech networking opportunities. Through these endeavours,  I hope to broaden my professional network, stay current with industry developments, improve my technical proficiency, and pave the route for future growth in the rapidly evolving technology sector.
 
-1. Attend local tech meetups:  
+1. Attend local tech meetups:
+
 Attending local tech meetups is a strategic move in my action plan for professional growth in the information technology field. These gatherings offer a forum for professionals with similar interests to interact, exchange stories, and gain insight into current market trends. Regular participation in such gatherings helps me establish important contacts, broaden my network, and find new professional opportunities. These meetups give a unique opportunity to learn about novel concepts and perspectives from a broad range of guests, including people from different industries and career stages. These meetups attract diverse attendees from various industries and career levels, providing an exciting opportunity to acquire new viewpoints and innovative concepts. At these events, networking effectively means more than just trading business cards; it means building ties over time and converting initial contacts into long-term partnerships that can significantly improve my professional prospects.
+
+2. Participate in Hackathons:
+
+Taking part in tech competitions, coding challenges, and hackathons is essential to my career progression plan in information technology. These gatherings provide ample opportunity to work with like-minded people, broaden my technical knowledge, and improve my interpersonal and cooperative abilities. Participating in these events entails working as a team to attain shared objectives, which goes beyond individual accomplishments and highlights the importance of cooperation and teamwork in obtaining exceptional results. Furthermore, hackathons and code challenges allow me to demonstrate my inventiveness, flexibility, and problem-solving skills in a fast-moving, competitive setting.
+
+3. Join Online Tech Communities and Forums:
+
+I recognise that actively engaging in online tech networks and forums is crucial to an information technology professional's career growth. These online communities—blogs, open-source materials, and Stack Overflow—are vital hubs for developers to interact, exchange knowledge, and work together across national boundaries. Two benefits of working on open-source projects are contributing to pre-existing libraries (collection of pre-written code)  and fostering talks with other developers—which may lead to in-person networking events. It's worth mentioning that contributing to libraries can enhance my visibility and personal brand as it encourages comments, bug reports, and other insights that undoubtedly lead to code improvement.
+
+4.	Attend Tech Conferences and Meetups: 
+
+My action includes attending tech conferences as I anticipate being exposed to more in-depth education, particularly in seminars run by professionals in the field. I plan to attend tech conferences as part of my strategy, expecting to gain deeper insights, primarily through workshops conducted by industry professionals. These gatherings foster a friendly, energetic environment for deep conversations and cooperative efforts. I anticipate learning about current industry trends, getting insights from the speakers' experience, and perhaps even receiving career development advice or mentoring by interacting with experienced individuals. Interacting with other guests also facilitates sharing experiences, exchanging ideas, and the development of business linkages that may result in future project or career collaborations.
+
+## Q9: Explain the uses of language-learning model technologies (such as ChatGPT) on written and technical works, such as reports and software projects.
+
+ChatGPT, introduced in November 2022, gained considerable attention for its exceptional performance in written and technical tasks, especially in understanding and responding accurately to complex contexts. As a variant of the GPT-3.5 deep learning model for Natural Language Processing (NLP), ChatGPT excels in generating responses that closely align with users' intended meanings. It functions as a text-based intelligent tutoring system (ITS), aiding individuals in achieving specific learning objectives by tailoring educational materials to each learner's needs. Additionally, ChatGPT employs Automated Writing Evaluation (AWE) to assess vocabulary usage and grammatical accuracy, providing students with valuable feedback. Its adaptability extends to handling challenging assignments such as composing scholarly articles and addressing exam-style questions (14). 
+
+(Prompt) <br> 
+Dear Samsung, <br>
+Hey, I am sunny. <b4>
+I would like to know when does the new version of the mobile service be released. ...(omitted) <br>
+(Response) Your email is concise and gets straight to the point, which is a good start. However, there are a few areas for improvement in terms of tone and formatting.<br>
+Greeting: “Hey” is informal and may not be the best choice for a professional email. Instead, try using a more formal greeting such as “Dear Samsung” or “Hello Samsung.” ...
+<br> (omitted) <br>
+Dear Samsung, <br>
+I hope this email finds you well. <br>
+I am writing to inquire about the release date of the new version of the Samsung Galaxy S series. ...
+<br> (omitted) <br>
+By making these changes, your email will be more professional and effective in conveying your request for information.
+(14)
+
+![figure screenshot](./assets/results.png) <br>
+Figure 6: Performance results of Ai models
+
+Furthermore, ChatGPT's impact extends beyond written assignments into coding and software development. It offers valuable insights into system performance, optimization suggestions, and potential code issues, contributing to the evolution of AI-driven software development practices. With breakthroughs like ChatGPT, CodeBERT, and Codex, there has been a transformative shift in how software engineers approach their work, emphasizing integrating AI models to enhance efficiency and problem-solving capabilities. ChatGPT's accuracy and capabilities, compared with other AI models like DeepCode, highlight its effectiveness in code analysis and improvement suggestions, albeit with varying response times and memory footprints based on specific objectives and complexities. Balancing the efficiency of AI tools with human expertise remains crucial for optimizing software development processes (15).
+
+## Q10: Explain the legal and ethical impacts of the usage of language-learning model technologies (such as ChatGPT) in written and technical works, such as reports and software projects.
+
+As language-learning model (LLM) technologies like ChatGPT become integral to written and technical works such as reports and software projects, their usage presents legal and ethical implications that demand careful consideration. Beyond only producing code, AI plays a broad role in software development that includes crucial elements like bias detection and ethical coding practices, establishing AI as a possible moral compass in the digital world (14).
+
+The idea of "hallucination" in AI-generated literature emphasises the ethical difficulties, where the result looks plausible but is actually false or useless. As a baseline to evaluate the accuracy of the generated material, a dataset of questions that humans frequently answer poorly was developed (Zuccon, G., et al.). Models such as GPT-3, according to experiments, only obtained 50% accuracy, which is considerably less than human ability. Two sets of prompts—one with accurate information and the other with false information—were utilized in another investigation (Zuccon, G. et al.) to measure response variability. The results revealed that accuracy dropped by about thirty percent when the prompts contained erroneous information. This proves that the potential ethical concern raised by ChatGPT's hallucination should not be disregarded when the application's scope is expanded (24).
+
+ChatGPT's writing capabilities have been widely employed by the software and educational sectors, who use it for everything from creating college application essays to finishing software projects (15). However, concerns about academic dishonesty and plagiarism have been raised by this widespread acceptance. To combat plagiarism, OpenAI has suggested adding watermarks to ChatGPT's responses; however, only the OpenAI development team has access to these watermarks, which begs the question of how successful these safeguards would be. The creation of plagiarism detection tools like GPTZero and RoBERTs-based AI-generated detectors is a reflection of continuous efforts to alleviate these concerns.  Gao et al. tested summaries produced by ChatGPT using an artificial judgment and a detector created by Roberts, an AI. About 70% of abstracts produced by AI can be recognised using either approach. The persistence of difficulties in reliably differentiating material produced by artificial intelligence from original content emphasises the necessity of solid assessment and supervision procedures to guarantee the moral application of AI technology in educational and professional contexts (24).
+
+## Q11: Explain multiple skills from each of the categories below, and how they’re useful to a software development workplace.
+
+Software development, especially in software engineering, is recognized as a socio-technical process where teamwork and effective user communication play pivotal roles. This complexity arises from human involvement, encompassing problem-solving abilities, interpersonal relationships, and nuanced cognitive processes, contrasting the reliability of machines (17).
+
+### Soft skills:
+Exceptional communication skills are critical in software development and are integral to daily operations and client interactions. Team members engage with stakeholders, including system analysts and end users, using efficient communication to understand and manage software requirements. This encompasses tasks such as prototyping by software designers and articulating requirements to users or fellow programmers. Effective communication is vital for programmers as they translate designs into functional computer programs, ensuring comprehension of requirements and design intricacies.
+
+Organisational skills include managing tasks effectively within a given timeframe, using resources effectively, and maintaining a logical order of execution. These abilities are essential in software development since tasks must be carefully planned and executed across several activities. Proficiency in organisational skills is crucial in mitigating the industry's common difficulties, which include project delays and overspending. Understanding the value of organisational abilities is vital for software designers since they are essential in decomposing complicated software into smaller, more manageable parts.
+
+Interpersonal skills include promoting productive relationships and teamwork towards common goals. Collaboration amongst people with different viewpoints and working methods is crucial in the software development industry. Proficient interpersonal skills positively impact overall organisational productivity by decreasing conflict and fostering trust. Proficient interpersonal skills positively impact organisational productivity by reducing conflict and promoting trust. Making decisions contains interpersonal components essential in collaborative settings, even if they appear to be a solo effort. Making effective decisions requires the capacity to thoroughly weigh the benefits and drawbacks of each option, taking stakeholders' and teammates' viewpoints into account in addition to one's own (22).
+
+### Hard Skills: 
+Being proficient with Git and GitHub is an essential complex software development skill that helps developers handle version control efficiently. Competency with Git allows developers to track code changes carefully, work with others on the team without any challenges, and roll back to earlier code versions when necessary. These duties include branching, merging, and resolving conflicts inside code repositories. When used in combination, these tools maintain the quality of the code, promote effective teamwork, guarantee project stability, and ease iterative development procedures in software development environments.
+
+Programmers can solve complicated issues more methodically by using data structures and algorithms, which help to divide significant problems into smaller, more manageable chunks. Comprehending diverse data structures and algorithms enables developers to select the optimal method for addressing particular issues, resulting in optimised resolutions. Developers can choose the best approach to solve specific problems by having a broad understanding of data structures and algorithms, which results in optimal solutions.
+
+Testing and debugging are essential hard skills to ensure software operation, dependability, and quality. Through various methodologies, including unit testing, integration testing, system testing, and acceptance testing, software components are systematically evaluated as part of the testing process to find defects, vulnerabilities, and performance issues early in the development cycle. Conversely, debugging calls for analytical thinking, problem-solving abilities, and in-depth programming expertise. It entails finding, isolating, and correcting faults or problems discovered during testing or operation. Developers may produce high-quality software, preserve software integrity, and improve user experience by conducting exhaustive testing and efficient debugging (25).
+
+
+
+
 
 
 
