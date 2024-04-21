@@ -1,5 +1,5 @@
 # CA_T1A1_Workbook
-
+## by Sofia 
 ## Q1: **Identify** and **explain** common and important components and concepts of web development
 
 Markup languages are crucial in web development as they define content structure, layout, and website presentation. Web developers must grasp markup languages to develop visually appealing, beneficial, and accessible websites that effectively communicate content. Developers can structure content (such as font size, colour, and style) and arrange it inside pages using these languages, which describe document layout and style through annotations like tags or elements. Examples are content structures specified with explicit tags using descriptive syntax, like in HTML and XML. Semantic markup, such as HTML components (lists, tables, and paragraphs) and header tags (H1, H2, and H3), helps search engines comprehend the context and hierarchy of material, which enhances indexing and visibility in search results (Ranked, n.d). 
